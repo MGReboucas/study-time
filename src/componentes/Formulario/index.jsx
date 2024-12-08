@@ -1,11 +1,11 @@
-import './style.scss';
+import style from'./formulario.module.scss';
 import Botao from '../botao';
 
 
 function Formulario(){
      return(
-          <form className="novaTarefa">
-               <div className="inputContainer">     
+          <form className={style.novaTarefa}>
+               <div className={style.inputContainer}>     
                     <label htmlFor="tarefa">Adicione um novo estudo</label>
                      <input 
                          type="text"
@@ -16,7 +16,7 @@ function Formulario(){
                     />
                </div>
 
-               <div className="inputConteiner">
+               <div className={style.inputContainer}>
                     <label htmlFor="tempo">Tempo</label>
                     <input 
                          type="time" 
@@ -28,7 +28,7 @@ function Formulario(){
                          required
                     />
                </div>
-               <Botao />
+               <Botao>Adicionar</Botao>
           </form>
      )
 }
