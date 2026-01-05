@@ -52,14 +52,19 @@ git clone https://github.com/MGReboucas/study-time.git
 Acesse a pasta do projeto:
 ```
 
+Entre na pasta do projeto:
+
+```
 cd study-time
+```
+
 Instale as dependências:
 
 ```
 npm install
 ```
 
-# ou
+### ou
 
 ```
 yarn install
@@ -68,16 +73,17 @@ yarn install
 Inicie o servidor de desenvolvimento:
 
 ```
-bash
 npm start
 ```
 
-# ou
+### ou
 
 ```
 yarn start
 A aplicação será executada em:
 ```
+
+## 📂 Estrutura de pastas
 
 ```
 study-time/
